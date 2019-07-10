@@ -1,12 +1,12 @@
 Das App tickettool is in PHP Laravel MVC geschrieben.
 <br> Die SW-Entwicklungsarbeit sind z.B. in:
-<hr> 
-<br> Datendesign:
-<br> tickettool/database/migrations/
-<br> tickettool/app/* .php (diverse Models)
-<br> tickettool/app/Http/Controllers/
-<br> tickettool/resources/views/../* blade.php (diverse HTML)
-
+<ul> 
+    <li> Datendesign: </li>
+    <li> tickettool/database/migrations/ </li>
+    <li> tickettool/app/* .php (diverse Models) </li>
+    <li> tickettool/app/Http/Controllers/ </li>
+    <li> tickettool/resources/views/../* blade.php (diverse HTML) </li>
+</ul>
 Mit Vue.js bin ich noch am Anfang, z.B. in
 tickettool/resources/js/components/Hws.vue
 Here versuche ich mit dem CRUD in Vue.js 
