@@ -1,7 +1,6 @@
 Das App tickettool is in PHP Laravel MVC geschrieben.
 <br> Die SW-Entwicklungsarbeit sind z.B. in:
-<ul> 
-    <li> Datendesign: </li>
+<ul>
     <li> tickettool/database/migrations/ </li>
     <li> tickettool/app/* .php (diverse Models) </li>
     <li> tickettool/app/Http/Controllers/ </li>
