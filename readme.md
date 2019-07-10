@@ -12,6 +12,7 @@ Mit Vue.js bin ich noch am Anfang, z.B. in
     <li> tickettool/resources/js/components/Hws.vue </li>
 </ul>
 Here versuche ich mit dem CRUD in Vue.js 
+<br />
 SaSS ist noch nicht in diesem Projekt drin, aber bald.
 <hr>
 <p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
