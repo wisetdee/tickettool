@@ -1,3 +1,17 @@
+Das App tickettool is in PHP Laravel MVC geschrieben.
+Die SW-Entwicklungsarbeit sind z.B. in:
+
+Datendesign:
+tickettool/database/migrations/
+tickettool/app/* .php (diverse Models)
+tickettool/app/Http/Controllers/
+tickettool/resources/views/../* blade.php (diverse HTML)
+
+Mit Vue.js bin ich noch am Anfang, z.B. in
+tickettool/resources/js/components/Hws.vue
+Here versuche ich mit dem CRUD in Vue.js 
+SaSS ist noch nicht in diesem Projekt drin, aber bald.
+
 <p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
 
 <p align="center">
