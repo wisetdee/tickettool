@@ -1,0 +1,16 @@
+table td {
+    width:400px;
+    word-wrap:break-word;
+    font-family:arial;
+    font-size:14pt;
+}
+
+table h5 {
+    font-family:arial;
+    font-size:14pt;
+}
+
+.container {
+    width: 100%;
+    max-width: 1400px;
+}

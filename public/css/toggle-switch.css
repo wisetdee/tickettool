@@ -1,0 +1,93 @@
+.switch
+{
+        width: 80px;
+        height: 30px;
+        position: relative;
+        display:inline-block;
+}
+
+.switch input
+{
+        display: none;
+}
+
+.slider
+{
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+        cursor: pointer;
+        background-color: gray;
+        border-radius: 30px;
+
+}
+.slider:before
+{
+
+    position: absolute;
+    background-color: #fff;
+    height: 20px;
+    width: 20px;
+    content: "";
+    left: 5px;
+    bottom: 5px;
+    border-radius: 50%;
+    transition: ease-in-out .5s;
+}
+
+.slider:after
+{
+    content: "NO";
+
+    color: white;
+    display: block;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 50%;
+    left: 70%;
+    transition: all .5s;
+    font-size: 20px;
+    font-family: Verdana,sans-serif;
+}
+
+input:checked + .slider:after
+{
+    transition: all .5s;
+    left: 100%;
+    content: "YES"
+
+}
+input:checked + .slider
+{
+    background-color: green;
+
+}
+
+input:checked + .slider:before
+{
+    -webkit-transform: translateX(50px);
+    -ms-transform: translateX(50px);
+    transform: translateX(50px);
+}
+
+.switch
+{
+    width:80px
+}
+.slider:after
+{
+    left: 60%; 
+}
+input:checked + .slider:after
+{
+   left:40%; 
+}
+
+and last
+
+input:checked + .slider:before
+{
+    transform: translateX(0px); 
+}
