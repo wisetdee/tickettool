@@ -8,7 +8,9 @@ Das App tickettool is in PHP Laravel MVC geschrieben.
     <li> tickettool/resources/views/../* blade.php (diverse HTML) </li>
 </ul>
 Mit Vue.js bin ich noch am Anfang, z.B. in
-tickettool/resources/js/components/Hws.vue
+<ul> 
+    <li> tickettool/resources/js/components/Hws.vue </li>
+</ul>
 Here versuche ich mit dem CRUD in Vue.js 
 SaSS ist noch nicht in diesem Projekt drin, aber bald.
 
